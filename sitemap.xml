@@ -1,1 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 
+<url>
+  <loc>https://panduan.top/</loc>
+  <lastmod>2022-07-29T18:24:03+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+<url>
+  <loc>https://panduan.top/info/</loc>
+  <lastmod>2022-07-29T18:24:03+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>https://panduan.top/privasi/</loc>
+  <lastmod>2022-07-29T18:24:03+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>https://panduan.top/tentang/</loc>
+  <lastmod>2022-07-29T18:24:03+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>https://panduan.top/kontak/</loc>
+  <lastmod>2022-07-29T18:24:03+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>https://panduan.top/ulasan-khusus/</loc>
+  <lastmod>2022-07-29T18:24:03+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>https://panduan.top/bank-digital/</loc>
+  <lastmod>2022-07-29T18:24:03+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>https://panduan.top/saham/</loc>
+  <lastmod>2022-07-29T18:24:03+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>https://panduan.top/ulasan-khusus/aplikasi-saham-terbaik/</loc>
+  <lastmod>2022-07-29T18:24:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+</urlset>
