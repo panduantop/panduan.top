@@ -1,5 +1,0 @@
-Sitemap: http://panduan.top/sitemap.xml
-User-agent: *
-Disallow: /CNAME
-Disallow: /LICENSE
-Disallow: /template/
