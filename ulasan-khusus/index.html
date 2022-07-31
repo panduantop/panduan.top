@@ -43,20 +43,28 @@
                  color:white; 
                  background-color:black; 
                 } 
-     fieldset   { 
-                 border-width:2px; 
-                 border-color:goldenrod; 
-                 border-radius:8px; 
-                 padding-top:12px; 
-                 padding-bottom:14px; 
+     h1         { 
+                 font-family:Averia Serif Libre; 
+                 font-size:19px; 
+                 font-weight:bold; 
+                 color:goldenrod; 
+                 margin-top:0; 
+                 margin-bottom:0; 
+                } 
+     h2         { 
+                 font-size:15px; 
+                 font-weight:bold; 
+                 color:cyan; 
+                 margin-top:0; 
+                 margin-bottom:0; 
                 } 
      a:link     { 
-                 color:springgreen; 
+                 color:cyan; 
                  background-color:transparent; 
                  text-decoration:none; 
                 } 
      a:visited  { 
-                 color:deeppink; 
+                 color:springgreen; 
                  background-color:transparent; 
                  text-decoration:none; 
                 } 
@@ -66,9 +74,20 @@
                  text-decoration:none; 
                 } 
      a:active   { 
-                 color:tomato; 
+                 color:white; 
                  background-color:transparent; 
                  text-decoration:none; 
+                } 
+     .header    { 
+                 text-align:center; 
+                 border:solid; 
+                 border-width:2px; 
+                 border-color:goldenrod; 
+                 border-radius:8px; 
+                 padding-top:8px; 
+                 padding-bottom:10px; 
+                 margin-top:4px; 
+                 margin-bottom:4px; 
                 } 
      .menu      { 
                  text-align:center; 
@@ -79,35 +98,19 @@
                  border-radius:8px; 
                  padding-top:8px; 
                  padding-bottom:10px; 
-                 margin-bottom:20px; 
+                 margin-top:4px; 
+                 margin-bottom:4px; 
                 } 
-     h1         { 
-                 font-family:Averia Serif Libre; 
-                 font-size:19px; 
-                 font-weight:bold; 
-                 color:goldenrod; 
-                 margin-top:0; 
-                 margin-bottom:0; 
-                } 
-     .subtitle  { 
-                 font-family:Averia Serif Libre; 
-                 font-size:16px; 
-                 font-weight:bold; 
-                 color:white; 
-                } 
-     .descript  { 
-                 font-size:15px; 
-                 font-weight:bold; 
-                 color:cyan; 
-                } 
-     .cyan      { 
-                 color:cyan; 
-                } 
-     .spgreen   { 
-                 color:springgreen; 
-                } 
-     .yellow    { 
-                 color:yellow; 
+     .content   { 
+                 text-align:center; 
+                 border:solid; 
+                 border-width:2px; 
+                 border-color:goldenrod; 
+                 border-radius:8px; 
+                 padding-top:8px; 
+                 padding-bottom:10px; 
+                 margin-top:4px; 
+                 margin-bottom:4px; 
                 } 
      .footer    { 
                  text-align:center; 
@@ -119,44 +122,39 @@
                  border-radius:8px; 
                  padding-top:8px; 
                  padding-bottom:8px; 
-                } 
-     .space     { 
-                 font-size:8px; 
+                 margin-top:4px; 
+                 margin-bottom:4px; 
                 } 
      </style> 
      </head>
      <body> 
-     <fieldset> 
+     <div class="header"> 
      <h1>
           ULASAN KHUSUS PANDUAN TOP
      </h1>
-     <span class="descript">
+     <h2>
           Review Segala Sesuatu Yang Menarik Di Internet
-     </span>
-     </fieldset> 
-     <div class="space">&nbsp;</div> 
-          <div class="menu">
-              <a href="/">DEPAN</a> • 
-              <a href="/info">INFO</a> • 
-              <a href="/privasi">PRIVASI</a> • 
-              <a href="/tentang">TENTANG</a> • 
-              <a href="/kontak">KONTAK</a>
-          </div> 
-     <div class="space">&nbsp;</div> 
-     <fieldset>
+     </h2>
+     </div> 
+     <div class="menu">
+          <a href="/">DEPAN</a> • 
+          <a href="/info">INFO</a> • 
+          <a href="/privasi">PRIVASI</a> • 
+          <a href="/tentang">TENTANG</a> • 
+          <a href="/kontak">KONTAK</a>
+     </div> 
+     <div class="content">
      <a href="/ulasan-khusus/aplikasi-saham-terbaik">Aplikasi Saham Terbaik</a>
-     </fieldset> 
-     <div class="space">&nbsp;</div> 
-          <div class="menu">
-              <a href="/">DEPAN</a> • 
-              <a href="/info">INFO</a> • 
-              <a href="/privasi">PRIVASI</a> • 
-              <a href="/tentang">TENTANG</a> • 
-              <a href="/kontak">KONTAK</a>
-          </div> 
-     <div class="space">&nbsp;</div> 
-          <div class="footer"> 
-               COPYRIGHT © 2022 • PANDUAN TOP • ALL RIGHTS RESERVED
-          </div> 
+     <div> 
+     <div class="menu">
+          <a href="/">DEPAN</a> • 
+          <a href="/info">INFO</a> • 
+          <a href="/privasi">PRIVASI</a> • 
+          <a href="/tentang">TENTANG</a> • 
+          <a href="/kontak">KONTAK</a>
+     </div> 
+     <div class="footer"> 
+          COPYRIGHT © 2022 • PANDUAN TOP • ALL RIGHTS RESERVED
+     </div> 
      </body> 
 </html>
