@@ -1,3 +1,4 @@
+     <style> 
      @font-face { 
                  font-family:Averia Serif Libre; 
                  src: url('/font/averia-serif-libre-regular.woff2') format('woff2'); 
@@ -110,3 +111,4 @@
      .space     { 
                  font-size:6px; 
                 } 
+     </style>
