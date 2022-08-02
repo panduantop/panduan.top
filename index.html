@@ -43,20 +43,36 @@
                  color:white; 
                  background-color:black; 
                 } 
-     fieldset   { 
-                 border-width:2px; 
-                 border-color:goldenrod; 
-                 border-radius:8px; 
-                 padding-top:12px; 
-                 padding-bottom:14px; 
+     h1         { 
+                 font-family:Averia Serif Libre; 
+                 font-size:40px; 
+                 font-weight:bold; 
+                 color:goldenrod; 
+                 margin-top:0; 
+                 margin-bottom:0; 
+                } 
+     h2         { 
+                 font-size:16px; 
+                 font-weight:bold; 
+                 color:cyan; 
+                 margin-top:0; 
+                 margin-bottom:0; 
+                } 
+     h3         { 
+                 font-family:Averia Serif Libre; 
+                 font-size:20px; 
+                 font-weight:bold; 
+                 color:white; 
+                 margin-top:0; 
+                 margin-bottom:0; 
                 } 
      a:link     { 
-                 color:springgreen; 
+                 color:cyan; 
                  background-color:transparent; 
                  text-decoration:none; 
                 } 
      a:visited  { 
-                 color:deeppink; 
+                 color:springgreen; 
                  background-color:transparent; 
                  text-decoration:none; 
                 } 
@@ -66,39 +82,56 @@
                  text-decoration:none; 
                 } 
      a:active   { 
-                 color:tomato; 
+                 color:white; 
                  background-color:transparent; 
                  text-decoration:none; 
+                } 
+     .header    { 
+                 text-align:center; 
+                 border:solid; 
+                 border-width:2px; 
+                 border-color:goldenrod; 
+                 border-radius:8px; 
+                 padding-top:8px; 
+                 padding-bottom:10px; 
+                 margin-top:8px; 
+                 margin-bottom:8px; 
                 } 
      .menu      { 
                  text-align:center; 
                  font-size:15px; 
+                 border:solid; 
+                 border-width:2px; 
+                 border-color:goldenrod; 
+                 border-radius:8px; 
+                 padding-top:8px; 
+                 padding-bottom:10px; 
+                 margin-top:8px; 
+                 margin-bottom:8px; 
                 } 
-     .title     { 
-                 font-family:Averia Serif Libre; 
-                 font-size:40px; 
+     .content   { 
+                 text-align:center; 
+                 border:solid; 
+                 border-width:2px; 
+                 border-color:goldenrod; 
+                 border-radius:8px; 
+                 padding-top:8px; 
+                 padding-bottom:10px; 
+                 margin-top:8px; 
+                 margin-bottom:8px; 
+                } 
+     .footer    { 
+                 text-align:center; 
+                 font-size:11px; 
                  font-weight:bold; 
-                 color:goldenrod; 
-                } 
-     .subtitle  { 
-                 font-family:Averia Serif Libre; 
-                 font-size:20px; 
-                 font-weight:bold; 
-                 color:white; 
-                } 
-     .descript  { 
-                 font-size:16px; 
-                 font-weight:bold; 
-                 color:cyan; 
-                } 
-     .cyan      { 
-                 color:cyan; 
-                } 
-     .spgreen   { 
-                 color:springgreen; 
-                } 
-     .yellow    { 
-                 color:yellow; 
+                 border:solid; 
+                 border-width:2px; 
+                 border-color:goldenrod; 
+                 border-radius:8px; 
+                 padding-top:8px; 
+                 padding-bottom:8px; 
+                 margin-top:8px; 
+                 margin-bottom:8px; 
                 } 
      .button    { 
                  font-family:Averia Serif Libre; 
@@ -113,10 +146,14 @@
                  padding-bottom:14px; 
                  margin:auto; 
                 } 
-     .footer    { 
-                 text-align:center; 
-                 font-size:11px; 
-                 font-weight:bold; 
+     .cyan      { 
+                 color:cyan; 
+                } 
+     .spgreen   { 
+                 color:springgreen; 
+                } 
+     .yellow    { 
+                 color:yellow; 
                 } 
      .space     { 
                  font-size:8px; 
@@ -124,33 +161,29 @@
      </style> 
      </head>
      <body> 
-     <fieldset> 
-     <div class="title">
+     <div class="header"> 
+     <h1>
           PANDUAN TOP
-     </div>
-     <span class="descript">
+     </h1>
+     <h2>
           Panduan Khusus Bisnis Online Untuk UMKM
           <br>
           <span class="spgreen">
           (Usaha Mikro, Kecil Dan Menengah)
           </span>
-     </span>
-     </fieldset> 
-     <div class="space">&nbsp;</div>
-     <fieldset> 
-          <span class="menu">
-              <span class="cyan">DEPAN</span> • 
-              <a href="/info">INFO</a> • 
-              <a href="/privasi">PRIVASI</a> • 
-              <a href="/tentang">TENTANG</a> • 
-              <a href="/kontak">KONTAK</a>
-          </span> 
-     </fieldset> 
-     <div class="space">&nbsp;</div>
-     <fieldset> 
-     <span class="subtitle">
+     </h2>
+     </div> 
+     <div class="menu">
+          <span class="cyan">DEPAN</span> • 
+          <a href="/info">INFO</a> • 
+          <a href="/privasi">PRIVASI</a> • 
+          <a href="/tentang">TENTANG</a> • 
+          <a href="/kontak">KONTAK</a>
+     </div> 
+     <div class="content"> 
+     <h3>
           ULASAN KHUSUS
-     </span>
+     </h3>
      <div class="space">&nbsp;</div> 
           <span class="cyan">
           DESKRIPSI
@@ -175,12 +208,11 @@
      LIHAT DAFTAR ISI
      </p>
      </a>
-     </fieldset> 
-     <div class="space">&nbsp;</div>
-     <fieldset> 
-     <span class="subtitle">
+     </div> 
+     <div class="content"> 
+     <h3>
           BANK DIGITAL
-     </span>
+     </h3>
      <div class="space">&nbsp;</div> 
           <span class="cyan">
           DESKRIPSI
@@ -205,12 +237,11 @@
      LIHAT DAFTAR ISI
      </p>
      </a>
-     </fieldset> 
-     <div class="space">&nbsp;</div>
-     <fieldset> 
-     <span class="subtitle">
+     </div> 
+     <div class="content"> 
+     <h3>
           SAHAM & PASAR MODAL
-     </span>
+     </h3>
      <div class="space">&nbsp;</div> 
           <span class="cyan">
           DESKRIPSI
@@ -235,22 +266,16 @@
      LIHAT DAFTAR ISI
      </p>
      </a>
-     </fieldset> 
-     <div class="space">&nbsp;</div>
-     <fieldset> 
-          <span class="menu">
-              <span class="cyan">DEPAN</span> • 
-              <a href="/info">INFO</a> • 
-              <a href="/privasi">PRIVASI</a> • 
-              <a href="/tentang">TENTANG</a> • 
-              <a href="/kontak">KONTAK</a>
-          </span> 
-     </fieldset> 
-     <div class="space">&nbsp;</div>
-     <fieldset> 
-          <span class="footer"> 
-               COPYRIGHT © 2022 • PANDUAN TOP • ALL RIGHTS RESERVED
-          </span> 
-     </fieldset> 
+     </div> 
+     <div class="menu">
+          <span class="cyan">DEPAN</span> • 
+          <a href="/info">INFO</a> • 
+          <a href="/privasi">PRIVASI</a> • 
+          <a href="/tentang">TENTANG</a> • 
+          <a href="/kontak">KONTAK</a>
+     </div> 
+     <div class="footer"> 
+          COPYRIGHT © 2022 • PANDUAN TOP • ALL RIGHTS RESERVED
+     </div> 
      </body> 
 </html>
