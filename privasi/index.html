@@ -43,20 +43,28 @@
                  color:white; 
                  background-color:black; 
                 } 
-     fieldset   { 
-                 border-width:2px; 
-                 border-color:goldenrod; 
-                 border-radius:8px; 
-                 padding-top:8px; 
-                } 
-     legend     { 
+     h1         { 
                  font-family:Averia Serif Libre; 
-                 color:goldenrod; 
-                 font-size:26px; 
+                 font-size:30px; 
                  font-weight:bold; 
-                 border:2px solid goldenrod; 
-                 border-radius:8px; 
-                 padding-top:3px; 
+                 color:goldenrod; 
+                 margin-top:0; 
+                 margin-bottom:0; 
+                } 
+     h2         { 
+                 font-size:13px; 
+                 font-weight:bold; 
+                 color:cyan; 
+                 margin-top:0; 
+                 margin-bottom:0; 
+                } 
+     h3         { 
+                 font-family:Averia Serif Libre; 
+                 font-size:20px; 
+                 font-weight:bold; 
+                 color:white; 
+                 margin-top:0; 
+                 margin-bottom:8px; 
                 } 
      a:link     { 
                  color:yellow; 
@@ -78,15 +86,84 @@
                  background-color:transparent; 
                  text-decoration:none; 
                 } 
+     .header    { 
+                 text-align:center; 
+                 border:solid; 
+                 border-width:2px; 
+                 border-color:goldenrod; 
+                 border-radius:8px; 
+                 padding-top:8px; 
+                 padding-bottom:10px; 
+                 margin-top:8px; 
+                 margin-bottom:8px; 
+                } 
      .menu      { 
                  text-align:center; 
                  font-size:15px; 
+                 border:solid; 
+                 border-width:2px; 
+                 border-color:goldenrod; 
+                 border-radius:8px; 
+                 padding-top:8px; 
+                 padding-bottom:10px; 
+                 margin-top:8px; 
+                 margin-bottom:8px; 
                 } 
-     .title     { 
-                 font-family:Averia Serif Libre; 
-                 font-size:30px; 
+     .content   { 
+                 text-align:center; 
+                 border:solid; 
+                 border-width:2px; 
+                 border-color:goldenrod; 
+                 border-radius:8px; 
+                 padding-top:8px; 
+                 padding-bottom:10px; 
+                 padding-left:8px; 
+                 padding-right:8px; 
+                 margin-top:8px; 
+                 margin-bottom:8px; 
+                } 
+     .footer    { 
+                 text-align:center; 
+                 font-size:11px; 
                  font-weight:bold; 
+                 border:solid; 
+                 border-width:2px; 
+                 border-color:goldenrod; 
+                 border-radius:8px; 
+                 padding-top:8px; 
+                 padding-bottom:8px; 
+                 margin-top:8px; 
+                 margin-bottom:8px; 
+                } 
+     .cyan      { 
+                 color:cyan; 
+                } 
+     .spgreen   { 
+                 color:springgreen; 
+                } 
+     .yellow    { 
+                 color:yellow; 
+                } 
+     .deeppink  { 
+                 color:deeppink; 
+                } 
+     .space     { 
+                 font-size:8px; 
+                } 
+     fieldset   { 
+                 border-width:2px; 
+                 border-color:goldenrod; 
+                 border-radius:8px; 
+                 padding-top:8px; 
+                } 
+     legend     { 
+                 font-family:Averia Serif Libre; 
                  color:goldenrod; 
+                 font-size:26px; 
+                 font-weight:bold; 
+                 border:2px solid goldenrod; 
+                 border-radius:8px; 
+                 padding-top:3px; 
                 } 
      .subtitle  { 
                  font-family:Averia Serif Libre; 
@@ -94,11 +171,6 @@
                  font-weight:bold; 
                  color:white; 
                  padding-top:6px; 
-                } 
-     .descript  { 
-                 font-size:13px; 
-                 font-weight:bold; 
-                 color:cyan; 
                 } 
      .cyan      { 
                  color:cyan; 
@@ -112,69 +184,34 @@
      .yellow    { 
                  color:yellow; 
                 } 
-     .button    { 
-                 font-family:Averia Serif Libre; 
-                 color:white; 
-                 background-color:indigo; 
-                 font-size:16px; 
-                 font-weight:bold; 
-                 height:45px; 
-                 width:180px; 
-                 border:none; 
-                 border-radius:10px; 
-                } 
-     .article   { 
-                 font-size:16px; 
-                 padding-top:4px;
-                 padding-bottom:6px; 
-                } 
-     .footer    { 
-                 text-align:center; 
-                 font-size:11px; 
-                 font-weight:bold; 
-                 padding-bottom:8px; 
-                } 
-     .space     { 
-                 font-size:8px; 
-                } 
      </style> 
      </head>
      <body> 
-     <fieldset> 
-     <div class="title">
+     <div class="header"> 
+     <h1>
           KEBIJAKAN PRIVASI
-     </div>
-     <span class="descript">
-          <span class="cyan">
+     </h1>
+     <h2>
           Yang Berlaku Dan Diterapkan Di Website Panduan Top
-          </span>
-     </span>
-     </fieldset> 
-     <div class="space">&nbsp;</div> 
-     <fieldset> 
-          <span class="menu">
-              <a href="/">DEPAN</a> • 
-              <a href="/info">INFO</a> • 
-              <span class="cyan">PRIVASI</span> • 
-              <a href="/tentang">TENTANG</a> • 
-              <a href="/kontak">KONTAK</a>
-          </span> 
-     </fieldset> 
-     <div class="space">&nbsp;</div> 
-     <fieldset>
+     </h2>
+     </div> 
+     <div class="menu">
+          <a href="/">DEPAN</a> • 
+          <a href="/info">INFO</a> • 
+          <span class="cyan">PRIVASI</span> • 
+          <a href="/tentang">TENTANG</a> • 
+          <a href="/kontak">KONTAK</a>
+     </div> 
+     <div class="content">
      <legend>&nbsp;DATA&nbsp;</legend>
-     <span class="article">
      Saat ini Panduan Top tidak mengumpulkan data apapun dari pengunjung, baik itu nama dan email maupun data-data lainnya. 
      <div class="space">&nbsp;</div> 
      Namun saat panduan yang bersifat premium (panduan berbayar) diluncurkan secara resmi, maka Panduan Top akan mengumpulkan sejumlah data untuk keperluan pendataan keanggotaan.
      <div class="space">&nbsp;</div> 
      Data-data tersebut aman dan tidak akan disebar atau dijual ke pihak manapun, karena Panduan Top mengerti bahwa kepercayaan tidak bisa dinilai atau dibeli dengan materi apapun.
-     </span>
-     </fieldset> 
-     <div class="space">&nbsp;</div> 
-     <fieldset>
+     </div> 
+     <div class="content">
      <legend>&nbsp;COOKIES&nbsp;</legend>
-     <span class="article">
      Cookies website Panduan Top tidak disimpan secara pribadi oleh Penulis Panduan Top.
      <div class="space">&nbsp;</div> 
      Cookies tersebut dikelola dan tersimpan dengan aman di hosting, cloud atau server pihak ketiga yang dipakai Panduan Top untuk menyimpan halaman-halaman website Panduan Top.
@@ -182,43 +219,30 @@
      Cookies bersifat sementara dan akan terbentuk secara otomatis ketika pengunjung membuka website Panduan Top serta akan terhapus otomatis saat pengunjung meninggalkan website.
      <div class="space">&nbsp;</div> 
      Cookies tersebut tidak bisa dan tidak akan digunakan lagi di masa mendatang pada saat pengunjung yang sama membuka kembali website Panduan Top karena cookies memiliki masa kadaluwarsa.
-     </span>
-     </fieldset> 
-     <div class="space">&nbsp;</div> 
-     <fieldset>
+     </div> 
+     <div class="content">
      <legend>&nbsp;CACHE&nbsp;</legend>
-     <span class="article">
      Cache website Panduan Top terbagi menjadi 2 jenis, yaitu dari sisi server Panduan Top dan dari sisi browser yang dipakai pengunjung.
      <div class="space">&nbsp;</div> 
      Cache hanya bersifat temporer (sementara) dan hanya dipakai untuk mempercepat proses pada saat membuka website Panduan Top.
      <div class="space">&nbsp;</div> 
      Sehingga secara pribadi, Penulis Panduan Top tidak pernah menyimpan cache website Panduan Top karena cache memiliki masa kadaluwarsa dan akan terbentuk serta terhapus otomatis (oleh sistem) saat pengunjung membuka atau meninggalkan website Panduan Top.
-     </span> 
-     </fieldset> 
-     <div class="space">&nbsp;</div> 
-     <fieldset>
+     </div> 
+     <div class="content">
      <legend>&nbsp;KEAMANAN&nbsp;</legend>
-     <span class="article">
      Keamanan domain, server, website dan jalur enkripsi protokol sepenuhnya dikelola oleh pihak ketiga (perusahaan besar) yang sangat kompeten dalam bidangnya.
      <div class="space">&nbsp;</div> 
      Sehingga website Panduan Top sangat aman dikunjungi oleh siapapun yang ingin mengakses website Panduan Top.
-     </span>
-     </fieldset> 
-     <div class="space">&nbsp;</div> 
-     <fieldset> 
-          <span class="menu">
-              <a href="/">DEPAN</a> • 
-              <a href="/info">INFO</a> • 
-              <span class="cyan">PRIVASI</span> • 
-              <a href="/tentang">TENTANG</a> • 
-              <a href="/kontak">KONTAK</a>
-          </span> 
-     </fieldset> 
-     <div class="space">&nbsp;</div> 
-     <fieldset> 
-          <span class="footer"> 
-               COPYRIGHT © 2022 • PANDUAN TOP • ALL RIGHTS RESERVED
-          </span> 
-     </fieldset> 
+     </div> 
+     <div class="menu">
+          <a href="/">DEPAN</a> • 
+          <a href="/info">INFO</a> • 
+          <span class="cyan">PRIVASI</span> • 
+          <a href="/tentang">TENTANG</a> • 
+          <a href="/kontak">KONTAK</a>
+     </div> 
+     <div class="footer"> 
+          COPYRIGHT © 2022 • PANDUAN TOP • ALL RIGHTS RESERVED
+     </div> 
      </body> 
 </html>
