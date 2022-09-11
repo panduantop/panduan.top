@@ -1,1 +1,272 @@
+<html>
 
+<head>
+     <title></title> 
+     <meta charset="UTF-8"> 
+     <meta name="description" content=""> 
+     <meta name="keywords" content=""> 
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+     <link rel="preload" href="/font/averia-serif-libre-regular.woff2" as="font" type="font/woff2" crossorigin> 
+     <link rel="preload" href="/font/source-sans-pro-regular.woff2" as="font" type="font/woff2" crossorigin> 
+     <link rel="preload" href="/font/courier-prime-regular.woff2" as="font" type="font/woff2" crossorigin> 
+     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png"> 
+     <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png"> 
+     <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png"> 
+     <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png"> 
+     <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png"> 
+     <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png"> 
+     <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png"> 
+     <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png"> 
+     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png"> 
+     <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png"> 
+     <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png"> 
+     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png"> 
+     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png"> 
+     <link rel="manifest" href="/favicon/manifest.json"> 
+     <meta name="msapplication-TileColor" content="#ffffff"> 
+     <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png"> 
+     <meta name="theme-color" content="#ffffff">
+
+<style> 
+@font-face     { font-family:Averia Serif Libre; 
+                 src: url('/font/averia-serif-libre-regular.woff2') format('woff2'); 
+                 font-display:swap; 
+               } 
+@font-face     { font-family:Source Sans Pro; 
+                 src: url('/font/source-sans-pro-regular.woff2') format('woff2'); 
+                 font-display:swap; 
+               } 
+@font-face     { font-family:Courier Prime; 
+                 src: url('/font/courier-prime-regular.woff2') format('woff2'); 
+                 font-display:swap; 
+               } 
+body           { text-align:center; 
+                 font-family:Source Sans Pro; 
+                 color:white; 
+                 background-color:black; 
+               }
+h1             { font-family:Averia Serif Libre; 
+                 font-size:22px; 
+                 font-weight:bold; 
+                 color:goldenrod; 
+                 margin-top:0; 
+                 margin-bottom:0; 
+               } 
+h2             { font-size:16px; 
+                 font-weight:bold; 
+                 color:cyan; 
+                 margin-top:0; 
+                 margin-bottom:0; 
+               } 
+h3             { font-family:Averia Serif Libre; 
+                 font-size:20px; 
+                 font-weight:bold; 
+                 color:white; 
+                 margin-top:0; 
+                 margin-bottom:0; 
+               } 
+a:link         { color:springgreen; 
+                 background-color:transparent; 
+                 text-decoration:none; 
+               } 
+a:visited      { color:deeppink; 
+                 background-color:transparent; 
+                 text-decoration:none; 
+               } 
+a:hover        { color:yellow; 
+                 background-color:transparent; 
+                 text-decoration:none; 
+               } 
+a:active       { color:white; 
+                 background-color:transparent; 
+                 text-decoration:none; 
+               } 
+a:link.menu    { color:springgreen; 
+                 background-color:transparent; 
+                 text-decoration:none; 
+               } 
+a:visited.menu { color:deeppink; 
+                 background-color:transparent; 
+                 text-decoration:none; 
+               } 
+a:hover.menu   { color:yellow; 
+                 background-color:transparent; 
+                 text-decoration:none; 
+               } 
+a:active.menu  { color:white; 
+                 background-color:transparent; 
+                 text-decoration:none; 
+               } 
+.header        { text-align:center; 
+                 border:solid; 
+                 border-width:2px; 
+                 border-color:goldenrod; 
+                 border-radius:8px; 
+                 padding-top:8px; 
+                 padding-bottom:10px; 
+                 padding-left:12px; 
+                 padding-right:12px; 
+                 margin-top:8px; 
+                 margin-bottom:8px; 
+               } 
+.content       { text-align:center; 
+                 font-size:15px; 
+                 border:solid; 
+                 border-width:2px; 
+                 border-color:goldenrod; 
+                 border-radius:8px; 
+                 padding-top:8px; 
+                 padding-bottom:8px; 
+                 padding-left:12px; 
+                 padding-right:12px; 
+                 margin-top:8px; 
+                 margin-bottom:8px; 
+               } 
+img            { width:300px; 
+                 height:auto; 
+                 margin-top:8px; 
+                 margin-bottom:8px; 
+               } 
+table          { width:100% } 
+th.menu        { text-align:center; 
+                 width:20%; 
+                 font-size:13px; 
+                 border:solid; 
+                 border-width:2px; 
+                 border-color:goldenrod; 
+                 border-radius:8px; 
+                 padding-top:4px; 
+                 padding-bottom:4px; 
+                 margin-top:8px; 
+                 margin-bottom:8px; 
+               } 
+.footer        { text-align:center; 
+                 font-size:11px; 
+                 font-weight:bold; 
+                 border:solid; 
+                 border-width:2px; 
+                 border-color:goldenrod; 
+                 border-radius:8px; 
+                 padding-top:8px; 
+                 padding-bottom:8px; 
+                 margin-top:8px; 
+                 margin-bottom:8px; 
+               } 
+p              { margin-top:8px; 
+                 margin-bottom:8px; 
+               } 
+.button        { font-family:Averia Serif Libre; 
+                 font-size:16px; 
+                 font-weight:bold; 
+                 color:white; 
+                 background-color:indigo; 
+                 width:180px; 
+                 border:none; 
+                 border-radius:10px; 
+                 padding-top:14px; 
+                 padding-bottom:14px; 
+                 margin-left:auto; 
+                 margin-right:auto; 
+                 margin-top:12px; 
+                 margin-bottom:8px; 
+               } 
+.cyan          { color:cyan; } 
+.spgreen       { color:springgreen; } 
+.yellow        { color:yellow; } 
+.white         { color:white; } 
+</style> 
+</head> 
+
+<body>
+     <div class="header">
+          <h1>DOMAIN HOSTING WEBSITE</h1>
+          <h2>Panduan Tentang Domain, Hosting & Website</h2>
+     </div>
+     <table>
+          <tr>
+               <th class="menu">
+                    <a class="menu" href="/">
+                         DEPAN
+                    </a>
+               </th>
+               <th class="menu">
+                    <a class="menu" href="/info">
+                         INFO
+                    </a>
+               </th>
+               <th class="menu">
+                    <a class="menu" href="/privasi">
+                         PRIVASI
+                    </a>
+               </th>
+               <th class="menu">
+                    <a class="menu" href="/tentang">
+                         TENTANG
+                    </a>
+               </th>
+               <th class="menu">
+                    <a class="menu" href="/kontak">
+                         KONTAK
+                    </a>
+               </th>
+          </tr>
+     </table>
+     <div class="content">
+          <h3>APA ITU DOMAIN ?</h3>
+          <br>
+          Secara singkat, domain bisa diartikan sebagai alamat web, alamat situs atau alamat portal.
+          <br>
+          Kalau diibaratkan sebuah tempat di dunia nyata, maka domain identik dengan alamat rumah kita.
+          <br>
+          Sedangkan jika diibaratkan dengan tempat usaha, maka domain identik dengan alamat tempat usaha kita.
+          <br><br>
+          <h3>APA ITU HOSTING ?</h3>
+          Hosting bisa diartikan sebagai tempat untuk menyimpan file-file atau halaman yang dipakai untuk mempulikasikan sebuah website, situs atau portal.
+          <br>
+          Di kehidupan nyata, hosting bisa diibaratkan rumah tempat tinggal kita.
+          <br>
+          Sedangkan kalau disetarakan dengan sebuah tempat usaha, maka hosting bisa diibaratkan kantor atau toko tempat usaha kita.
+          <br><br>
+          <h3>APA ITU WEBSITE ?</h3>
+          <br>
+          Website sering disebut web saja, situs atau portal. Secara singkat, bisa didefinisikan sebagai tempat untuk menampilkan informasi.
+          <br>
+          Kalau disamakan dengan tempat di dunia nyata, maka website identik dengan penampakan rumah kita.
+          <br>
+          Namun jika disejajarkan dengan bisnis atau tempat usaha, maka website bisa diibaratkan etalase toko atau penampakan kantor tempat usaha kita.
+     </div>
+     <table>
+          <tr>
+               <th class="menu">
+                    <a class="menu" href="/">
+                         DEPAN
+                    </a>
+               </th>
+               <th class="menu">
+                    <a class="menu" href="/info">
+                         INFO
+                    </a>
+               </th>
+               <th class="menu">
+                    <a class="menu" href="/privasi">
+                         PRIVASI
+                    </a>
+               </th>
+               <th class="menu">
+                    <a class="menu" href="/tentang">
+                         TENTANG
+                    </a>
+               </th>
+               <th class="menu">
+                    <a class="menu" href="/kontak">
+                         KONTAK
+                    </a>
+               </th>
+          </tr>
+     </table>
+     <div class="footer">
+          COPYRIGHT © 2022 • <a href="/"><span class="white">PANDUAN TOP</span></a> • ALL RIGHTS RESERVED
+     </div>
+</body>
+
+</html>
